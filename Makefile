@@ -8,6 +8,5 @@ test :; forge test
 
 install :; forge install Cyfrin/foundry-devops && forge install smartcontractkit/chainlink-brownie-contracts && forge install foundry-rs/forge-std && forge install transmissions11/solmate
 
-deploy-sepolia :
-	@forge script scripts/DeployRaffle.s.sol:DeployRaffle --rpc-url
+
 
